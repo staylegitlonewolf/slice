@@ -85,25 +85,27 @@ function FPSWrapper() {
 }
 
 // ===== GLOBAL CONTROL BAR WRAPPER =====
-interface AccessibilitySettings {
+type GlobalAccessibilitySettings = {
   largeText: boolean;
   highContrast: boolean;
-  reducedMotion: boolean;
+  reduceMotion: boolean; // matches ControlBar prop key
   screenReader: boolean;
   disableVideos: boolean;
-}
+  fullscreen: boolean;
+};
 
 function GlobalControlBar() {
   const [showAccessibilitySettings, setShowAccessibilitySettings] = React.useState(false);
-  const [accessibilitySettings, setAccessibilitySettings] = React.useState<AccessibilitySettings>({
+  const [accessibilitySettings, setAccessibilitySettings] = React.useState<GlobalAccessibilitySettings>({
     largeText: false,
     highContrast: false,
-    reducedMotion: false,
+    reduceMotion: false,
     screenReader: false,
-    disableVideos: false
+    disableVideos: false,
+    fullscreen: false
   });
 
-  const applyAccessibilitySettings = (settings: AccessibilitySettings) => {
+  const applyAccessibilitySettings = (settings: GlobalAccessibilitySettings) => {
     const root = document.documentElement;
     
     if (settings.largeText) {
@@ -118,7 +120,7 @@ function GlobalControlBar() {
       root.classList.remove('high-contrast');
     }
     
-    if (settings.reducedMotion) {
+    if (settings.reduceMotion) {
       root.classList.add('reduced-motion');
     } else {
       root.classList.remove('reduced-motion');
@@ -137,20 +139,37 @@ function GlobalControlBar() {
     }
   };
 
-  const updateAccessibilitySetting = (key: keyof typeof accessibilitySettings, value: boolean) => {
+  const updateAccessibilitySetting = (key: keyof GlobalAccessibilitySettings, value: boolean) => {
     const newSettings = { ...accessibilitySettings, [key]: value };
     setAccessibilitySettings(newSettings);
     applyAccessibilitySettings(newSettings);
   };
+
+  // Adapter for ControlBar props (expects only these keys)
+  const updateControlBarSetting = (
+    key: 'largeText' | 'reduceMotion' | 'disableVideos' | 'fullscreen',
+    value: boolean
+  ) => updateAccessibilitySetting(key, value);
 
   return (
     <ControlBar
       onClose={() => {}} // No close function needed for global control bar
       showAccessibilitySettings={showAccessibilitySettings}
       onToggleAccessibilitySettings={() => setShowAccessibilitySettings(!showAccessibilitySettings)}
-      accessibilitySettings={accessibilitySettings}
-      onUpdateAccessibilitySetting={updateAccessibilitySetting}
-      onApplyAccessibilitySettings={applyAccessibilitySettings}
+      accessibilitySettings={{
+        largeText: accessibilitySettings.largeText,
+        reduceMotion: accessibilitySettings.reduceMotion,
+        disableVideos: accessibilitySettings.disableVideos,
+        fullscreen: accessibilitySettings.fullscreen
+      }}
+      onUpdateAccessibilitySetting={updateControlBarSetting}
+      onApplyAccessibilitySettings={(s) => applyAccessibilitySettings({
+        ...accessibilitySettings,
+        largeText: s.largeText,
+        reduceMotion: s.reduceMotion,
+        disableVideos: s.disableVideos,
+        fullscreen: s.fullscreen
+      })}
     />
   );
 }
@@ -162,6 +181,19 @@ function App() {
         <FPSProvider>
           <Router>
             <div className="App">
+              <div style={{
+                position: 'fixed',
+                top: 0,
+                left: 0,
+                right: 0,
+                zIndex: 9999,
+                background: '#111',
+                color: '#0f0',
+                fontFamily: 'monospace',
+                fontSize: '12px',
+                padding: '4px 8px',
+                textAlign: 'center'
+              }}>Deployed via GitHub Pages — build OK</div>
               <ScrollToTop />
               <FloatingNavigation />
               <GlobalControlBar />
