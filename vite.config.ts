@@ -4,7 +4,8 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/',
+  // For GitHub Pages under user repo "slice": site served at /slice/
+  base: '/slice/',
   server: {
     host: '0.0.0.0', // Bind to all network interfaces
     port: 5173, // Specify port explicitly
