@@ -659,7 +659,7 @@ const Home: React.FC = () => {
           
           {/* Celebrations Grid */}
           <div className="celebrations-cards-grid grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="celebration-card" style={{backgroundImage: 'url(/TypesofCelebrations/weddings.png)'}}>
+            <div className="celebration-card" style={{backgroundImage: `url(${withBase('/TypesofCelebrations/weddings.png')})`} }>
               <div className="celebration-card-overlay">
                 <div className="celebration-card-content text-center">
                   <div className="text-4xl mb-4">💒</div>
@@ -671,7 +671,7 @@ const Home: React.FC = () => {
               </div>
             </div>
 
-            <div className="celebration-card" style={{backgroundImage: 'url(/TypesofCelebrations/bar_bat_mitzvahs.png)'}}>
+            <div className="celebration-card" style={{backgroundImage: `url(${withBase('/TypesofCelebrations/bar_bat_mitzvahs.png')})`} }>
               <div className="celebration-card-overlay">
                 <div className="celebration-card-content text-center">
                   <div className="text-4xl mb-4">🕯️</div>
@@ -683,7 +683,7 @@ const Home: React.FC = () => {
               </div>
             </div>
 
-            <div className="celebration-card" style={{backgroundImage: 'url(/TypesofCelebrations/quince.jpg)'}}>
+            <div className="celebration-card" style={{backgroundImage: `url(${withBase('/TypesofCelebrations/quince.jpg')})`} }>
               <div className="celebration-card-overlay">
                 <div className="celebration-card-content text-center">
                   <div className="text-4xl mb-4">👑</div>
@@ -695,7 +695,7 @@ const Home: React.FC = () => {
               </div>
             </div>
 
-            <div className="celebration-card" style={{backgroundImage: 'url(/TypesofCelebrations/birthday.png)'}}>
+            <div className="celebration-card" style={{backgroundImage: `url(${withBase('/TypesofCelebrations/birthday.png')})`} }>
               <div className="celebration-card-overlay">
                 <div className="celebration-card-content text-center">
                   <div className="text-4xl mb-4">🎂</div>
@@ -707,7 +707,7 @@ const Home: React.FC = () => {
               </div>
             </div>
 
-            <div className="celebration-card" style={{backgroundImage: 'url(/TypesofCelebrations/corporate.jpg)'}}>
+            <div className="celebration-card" style={{backgroundImage: `url(${withBase('/TypesofCelebrations/corporate.jpg')})`} }>
               <div className="celebration-card-overlay">
                 <div className="celebration-card-content text-center">
                   <div className="text-4xl mb-4">🏢</div>
@@ -719,7 +719,7 @@ const Home: React.FC = () => {
               </div>
             </div>
 
-            <div className="celebration-card" style={{backgroundImage: 'url(/TypesofCelebrations/specialevents.png)'}}>
+            <div className="celebration-card" style={{backgroundImage: `url(${withBase('/TypesofCelebrations/specialevents.png')})`} }>
               <div className="celebration-card-overlay">
                 <div className="celebration-card-content text-center">
                   <div className="text-4xl mb-4">🎉</div>

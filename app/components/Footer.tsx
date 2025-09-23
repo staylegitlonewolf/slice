@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           <div className="footer-brand">
             <div className="footer-photo">
               <img 
-                src="/Footer/footerPhoto.png" 
+                src={`${(import.meta as any).env?.BASE_URL || '/'}Footer/footerPhoto.png`} 
                 alt="SLICE Weston - Premier Event Venue" 
                 className="footer-brand-image"
               />
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
           <div className="footer-image-section">
             <div className="footer-image-container">
               <img 
-                src="/Footer/sliceFooter.png" 
+                src={`${(import.meta as any).env?.BASE_URL || '/'}Footer/sliceFooter.png`} 
                 alt="SLICE Weston - Premier Event Venue" 
                 className="footer-image"
               />
@@ -94,7 +94,7 @@ const Footer: React.FC = () => {
               <div className="footer-map-container">
                 <div className="footer-map-photo">
                   <img 
-                    src="/Footer/sliceGoogleMaps.png" 
+                    src={`${(import.meta as any).env?.BASE_URL || '/'}Footer/sliceGoogleMaps.png`}
                     alt="SLICE Weston Location - Google Maps" 
                     className="footer-map-image"
                   />
