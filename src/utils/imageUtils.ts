@@ -5,11 +5,9 @@
 
 // Helper function to get correct image path for custom domain
 export const getImagePath = (path: string): string => {
-  // Remove leading slash if present to avoid double slashes
   const cleanPath = path.startsWith('/') ? path.slice(1) : path;
-  
-  // Use root path for custom domain
-  return `/${cleanPath}`;
+  const base = (import.meta as any).env?.BASE_URL ?? '/';
+  return `${base}${cleanPath}`;
 };
 
 // Predefined image paths for common assets

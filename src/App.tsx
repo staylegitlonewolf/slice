@@ -179,7 +179,7 @@ function App() {
     <ErrorBoundary>
       <LanguageProvider>
         <FPSProvider>
-          <Router>
+          <Router basename={(import.meta as any).env?.BASE_URL || '/'}>
             <div className="App">
               <div style={{
                 position: 'fixed',
@@ -203,25 +203,25 @@ function App() {
               <main className="main-content">
                 <Routes>
                   <Route path="/" element={<Home />} />
-                  <Route path="/home" element={<Home />} />
-                  <Route path="/categories" element={<Home />} />
-                  <Route path="/whats-included" element={<WhatsIncluded />} />
-                  <Route path="/catering" element={<Catering />} />
-                  <Route path="/gallery" element={<Gallery />} />
-                  <Route path="/testimonials" element={<Testimonials />} />
-                  <Route path="/about" element={<About />} />
-                  <Route path="/contact" element={<Contact />} />
-                  <Route path="/privacy" element={<Privacy />} />
-                  <Route path="/terms" element={<Terms />} />
-                  <Route path="/disclaimer" element={<Disclaimer />} />
-                  <Route path="/accessibility" element={<Accessibility />} />
-                  <Route path="/discover" element={<Discover />} />
-                  <Route path="/services" element={<Services />} />
-                  <Route path="/faq" element={<FAQ />} />
-                  <Route path="/meet-the-owner" element={<MeetTheOwner />} />
-                  <Route path="/create-event" element={<CreateEvent />} />
-                  <Route path="/admin" element={<AdminDashboard />} />
-                  <Route path="/debug" element={<Debug />} />
+                  <Route path="home" element={<Home />} />
+                  <Route path="categories" element={<Home />} />
+                  <Route path="whats-included" element={<WhatsIncluded />} />
+                  <Route path="catering" element={<Catering />} />
+                  <Route path="gallery" element={<Gallery />} />
+                  <Route path="testimonials" element={<Testimonials />} />
+                  <Route path="about" element={<About />} />
+                  <Route path="contact" element={<Contact />} />
+                  <Route path="privacy" element={<Privacy />} />
+                  <Route path="terms" element={<Terms />} />
+                  <Route path="disclaimer" element={<Disclaimer />} />
+                  <Route path="accessibility" element={<Accessibility />} />
+                  <Route path="discover" element={<Discover />} />
+                  <Route path="services" element={<Services />} />
+                  <Route path="faq" element={<FAQ />} />
+                  <Route path="meet-the-owner" element={<MeetTheOwner />} />
+                  <Route path="create-event" element={<CreateEvent />} />
+                  <Route path="admin" element={<AdminDashboard />} />
+                  <Route path="debug" element={<Debug />} />
                   {/* Catch-all route for 404 */}
                   <Route path="*" element={<Home />} />
                 </Routes>

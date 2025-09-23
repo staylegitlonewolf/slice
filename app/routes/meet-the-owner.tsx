@@ -7,13 +7,13 @@ const MeetTheOwner: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const ownerPhotos = [
-    { src: '/MeetTheOwner/1.jpg', alt: 'Owner professional portrait', featured: true },
-    { src: '/MeetTheOwner/0.png', alt: 'Owner candid moment', featured: false },
-    { src: '/MeetTheOwner/2.png', alt: 'Owner at event', featured: false },
-    { src: '/MeetTheOwner/4.png', alt: 'Owner in venue', featured: false },
-    { src: '/MeetTheOwner/5.png', alt: 'Owner hospitality moment', featured: false },
-    { src: '/MeetTheOwner/6.png', alt: 'Owner event planning', featured: false },
-    { src: '/MeetTheOwner/7.png', alt: 'Owner celebration', featured: false }
+    { src: `${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/1.jpg`, alt: 'Owner professional portrait', featured: true },
+    { src: `${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/0.png`, alt: 'Owner candid moment', featured: false },
+    { src: `${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/2.png`, alt: 'Owner at event', featured: false },
+    { src: `${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/4.png`, alt: 'Owner in venue', featured: false },
+    { src: `${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/5.png`, alt: 'Owner hospitality moment', featured: false },
+    { src: `${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/6.png`, alt: 'Owner event planning', featured: false },
+    { src: `${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/7.png`, alt: 'Owner celebration', featured: false }
   ];
 
   const openImageModal = (src: string) => {

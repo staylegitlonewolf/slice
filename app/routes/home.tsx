@@ -9,6 +9,10 @@ import CategoriesLightbox from '../components/CategoriesLightbox';
 import LanguageToggle from '../components/LanguageToggle';
 import Footer from '../components/Footer';
 
+const BASE = (import.meta as any).env?.BASE_URL || '/';
+// Helper to prefix with base
+const withBase = (p: string) => (p.startsWith('/') ? `${BASE}${p.slice(1)}` : `${BASE}${p}`);
+
 const Home: React.FC = () => {
   const { t, tString } = useLanguage();
   
@@ -151,25 +155,25 @@ const Home: React.FC = () => {
   
   // Catering gallery images - first 10 only
   const cateringImages = [
-    '/3_Catering/1.jpg', '/3_Catering/2.png', '/3_Catering/3.jpg', '/3_Catering/4.jpg',
-    '/3_Catering/5.jpg', '/3_Catering/6.jpg', '/3_Catering/7.jpg', '/3_Catering/8.jpg',
-    '/3_Catering/9.jpg', '/3_Catering/10.jpg'
+    withBase('/3_Catering/1.jpg'), withBase('/3_Catering/2.png'), withBase('/3_Catering/3.jpg'), withBase('/3_Catering/4.jpg'),
+    withBase('/3_Catering/5.jpg'), withBase('/3_Catering/6.jpg'), withBase('/3_Catering/7.jpg'), withBase('/3_Catering/8.jpg'),
+    withBase('/3_Catering/9.jpg'), withBase('/3_Catering/10.jpg')
   ];
 
   // Events gallery images
   const eventsImages = [
-    '/1_Home/slicePhoto1.png',
-    '/1_Home/slicePhoto2.png',
-    '/1_Home/sliceEntrance.png'
+    withBase('/1_Home/slicePhoto1.png'),
+    withBase('/1_Home/slicePhoto2.png'),
+    withBase('/1_Home/sliceEntrance.png')
   ];
 
   // Photo showcase array - Venue Highlights
   const showcasePhotos = [
-    '/1_Home/VenueHighlights/homeBackground1.png',
-    '/1_Home/VenueHighlights/homeBackground2.png',
-    '/1_Home/VenueHighlights/homeBackground3.png',
-    '/1_Home/VenueHighlights/homeBackground4.png',
-    '/1_Home/VenueHighlights/homeBackground5.png'
+    withBase('/1_Home/VenueHighlights/homeBackground1.png'),
+    withBase('/1_Home/VenueHighlights/homeBackground2.png'),
+    withBase('/1_Home/VenueHighlights/homeBackground3.png'),
+    withBase('/1_Home/VenueHighlights/homeBackground4.png'),
+    withBase('/1_Home/VenueHighlights/homeBackground5.png')
   ];
 
   // Sample Google reviews for rotation
@@ -182,11 +186,11 @@ const Home: React.FC = () => {
       date: new Date(Date.now() - 10 * 60 * 60 * 1000), // 10 hours ago
       text: t('home.reviews.mayteGarcia.text'),
       photos: [
-        "/Google Review/MayteGarcia/1.png",
-        "/Google Review/MayteGarcia/2.png", 
-        "/Google Review/MayteGarcia/3.png",
-        "/Google Review/MayteGarcia/4.png",
-        "/Google Review/MayteGarcia/5.png"
+        withBase('/Google Review/MayteGarcia/1.png'),
+        withBase('/Google Review/MayteGarcia/2.png'), 
+        withBase('/Google Review/MayteGarcia/3.png'),
+        withBase('/Google Review/MayteGarcia/4.png'),
+        withBase('/Google Review/MayteGarcia/5.png')
       ]
     },
     {
@@ -531,7 +535,7 @@ const Home: React.FC = () => {
           playsInline
           preload="metadata"
         >
-          <source src="/1_Home/hero-background.mp4" type="video/mp4" />
+          <source src={withBase('/1_Home/hero-background.mp4')} type="video/mp4" />
         </video>
         
         {/* Video Overlay */}
@@ -542,7 +546,7 @@ const Home: React.FC = () => {
           <div className="hero-logo-text-container">
             <div className="hero-logo-section">
               <img 
-                src="/logo.png" 
+                src={withBase('/logo.png')} 
                 alt={tString('home.accessibility.logoAlt')} 
                 className="hero-logo-img"
               />
@@ -634,7 +638,7 @@ const Home: React.FC = () => {
                   playsInline
                   preload="metadata"
                 >
-                  <source src="/1_Home/social-media-demo1.mp4" type="video/mp4" />
+                  <source src={withBase('/1_Home/social-media-demo1.mp4')} type="video/mp4" />
                   {t('home.accessibility.videoNotSupported')}
                 </video>
               </div>
@@ -898,7 +902,7 @@ const Home: React.FC = () => {
                 playsInline
                 preload="auto"
               >
-                <source src="/1_Home/venue-welcome.mp4" type="video/mp4" />
+                <source src={withBase('/1_Home/venue-welcome.mp4')} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -925,9 +929,9 @@ const Home: React.FC = () => {
                   loop
                   playsInline
                   preload="metadata"
-                  poster="/floorPlan.jpg"
+                  poster={withBase('/floorPlan.jpg')}
                 >
-                  <source src="/1_Home/venue-highlight-2.mp4" type="video/mp4" />
+                  <source src={withBase('/1_Home/venue-highlight-2.mp4')} type="video/mp4" />
                 </video>
                 <div className="venue-video-overlay"></div>
               </div>
@@ -986,7 +990,7 @@ const Home: React.FC = () => {
                     playsInline
                     preload="metadata"
                   >
-                    <source src="/1_Home/events-celebrations.mp4" type="video/mp4" />
+                    <source src={withBase('/1_Home/events-celebrations.mp4')} type="video/mp4" />
                     {t('home.accessibility.videoNotSupported')}
                   </video>
                 </div>
@@ -1042,9 +1046,9 @@ const Home: React.FC = () => {
                     muted
                     loop
                     playsInline
-                    poster="/Category/catering.png"
+                    poster={withBase('/Category/catering.png')}
                   >
-                    <source src="/3_Catering/cateringVideo.mp4" type="video/mp4" />
+                    <source src={withBase('/3_Catering/cateringVideo.mp4')} type="video/mp4" />
                     {t('home.accessibility.videoNotSupported')}
                   </video>
                   <div className="video-overlay"></div>
@@ -1114,7 +1118,7 @@ const Home: React.FC = () => {
                   playsInline
                   preload="metadata"
                 >
-                  <source src="/1_Home/venue-highlight-3.mp4" type="video/mp4" />
+                  <source src={withBase('/1_Home/venue-highlight-3.mp4')} type="video/mp4" />
                 </video>
               </div>
             </div>
@@ -1187,7 +1191,7 @@ const Home: React.FC = () => {
                     className="social-link instagram animate-bounce-in animate-delay-3"
                     aria-label={tString('home.accessibility.followInstagram')}
                   >
-                    <img src="/SocialMedia/instagramLogo.png" alt={tString('home.accessibility.instagramAlt')} className="social-logo" />
+                    <img src={withBase('/SocialMedia/instagramLogo.png')} alt={tString('home.accessibility.instagramAlt')} className="social-logo" />
                   </a>
                   <a 
                     href="https://www.tiktok.com/@sliceweston" 
@@ -1196,7 +1200,7 @@ const Home: React.FC = () => {
                     className="social-link tiktok animate-bounce-in animate-delay-4"
                     aria-label={tString('home.accessibility.followTiktok')}
                   >
-                    <img src="/SocialMedia/tiktokLogo.png" alt={tString('home.accessibility.tiktokAlt')} className="social-logo" />
+                    <img src={withBase('/SocialMedia/tiktokLogo.png')} alt={tString('home.accessibility.tiktokAlt')} className="social-logo" />
                   </a>
                   <a 
                     href="https://www.facebook.com/sliceweston" 
@@ -1205,7 +1209,7 @@ const Home: React.FC = () => {
                     className="social-link facebook animate-bounce-in animate-delay-5"
                     aria-label={tString('home.accessibility.followFacebook')}
                   >
-                    <img src="/SocialMedia/facebookLogo.png" alt={tString('home.accessibility.facebookAlt')} className="social-logo" />
+                    <img src={withBase('/SocialMedia/facebookLogo.png')} alt={tString('home.accessibility.facebookAlt')} className="social-logo" />
                   </a>
                 </div>
               </div>
@@ -1229,7 +1233,7 @@ const Home: React.FC = () => {
               {/* TikTok QR Code Photo */}
               <div className="tiktok-qr-image-wrapper">
                 <img
-                  src="/1_Home/social-media-tiktok.png"
+                  src={withBase('/1_Home/social-media-tiktok.png')}
                   alt="SLICE Weston TikTok QR Code - Scan to follow our TikTok account"
                   className="tiktok-qr-image"
                 />
