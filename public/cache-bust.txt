@@ -1,0 +1,17 @@
+# Cache Bust File
+# Created: $(date)
+# Purpose: Force GitHub Pages to serve fresh content
+# Version: AGGRESSIVE-CACHE-BUST-$(date +%s)
+
+This file exists to force GitHub Pages to recognize that new content has been deployed
+and should serve the fresh index.html with the correct asset file names.
+
+Current build assets:
+- manifest-53238382.js
+- root-B3jQfFKO.js
+- root-CSsqw6Mt.css
+
+Old cached assets (should not be served):
+- manifest-b639d169.js
+- root-BlyB5hSP.js
+- root-B5BKnrck.css

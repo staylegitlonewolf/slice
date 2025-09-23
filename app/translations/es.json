@@ -1,0 +1,873 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "settings": "Configuración",
+    "whatsIncluded": "Qué Incluye",
+    "catering": "Catering",
+    "celebrations": "Celebraciones",
+    "gallery": "Fotos y Videos",
+    "testimonials": "Reseñas de Google",
+    "about": "Acerca de Nosotros",
+    "meetTheOwner": "Conoce al Propietario",
+    "faq": "Preguntas Frecuentes",
+    "contact": "Contacto"
+  },
+  "buttons": {
+    "bookEvent": "Reserva tu Evento",
+    "contactInfo": "Información de Contacto",
+    "startPlanning": "Comienza a Planificar Hoy",
+    "call": "Llama (954) 557-7086",
+    "seeWhatsIncluded": "Ver Qué Incluye",
+    "viewCateringMenu": "Ver Menú de Catering",
+    "getDirections": "Obtener Direcciones",
+    "viewLargerMap": "Ver mapa más grande",
+    "close": "Cerrar",
+    "reset": "Restablecer a Predeterminado",
+    "getQuote": "Obtener Cotización",
+    "startPlanningMenu": "Comenzar a Planificar",
+    "viewAllServices": "Ver Todos los Servicios",
+    "menu": "MENÚ",
+    "back": "ATRÁS",
+    "scheduleTour": "Programar\nRecorrido",
+    "viewMenu": "Ver\nMenú",
+    "seeReviews": "Ver Nuestras Reseñas",
+    "rateUs": "Califícanos",
+    "connectWithUs": "Conéctate Con Nosotros",
+    "readyToBook": "Listo Para Reservar",
+    "celebrations": "Celebraciones"
+  },
+  "testimonials": {
+    "googleReviews": {
+      "title": "Nuestras Reseñas de Google",
+      "rating": "Calificado con 4.6 estrellas con 93+ reseñas en Google",
+      "ratingNumber": "4.6",
+      "ratingText": "con 93+ reseñas en Google",
+      "viewOnGoogle": "Ver en Google"
+    },
+    "featuredReviews": {
+      "title": "Lo Que Dicen Nuestros Clientes",
+      "subtitle": "Reseñas reales de clientes reales en Google"
+    },
+    "sort": {
+      "newest": "Más Recientes",
+      "oldest": "Más Antiguas"
+    },
+    "filter": {
+      "photosOnly": "Mostrar con Fotos"
+    }
+  },
+  "pages": {
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Encuentra respuestas a preguntas comunes sobre nuestro lugar y servicios",
+      "sectionTitle": "Detalles del Evento SLICE",
+      "sectionSubtitle": "Obtén respuestas a las preguntas más comunes sobre nuestro lugar, políticas y servicios",
+      "stillHaveQuestions": "¿Aún tienes preguntas?",
+      "contactDescription": "Nuestro equipo está aquí para ayudarte a planificar el evento perfecto. Contáctanos para asistencia personalizada.",
+      "contactUs": "Contáctanos",
+      "readyToBook": "¿Listo para Reservar tu Evento?",
+      "bookDescription": "¡No esperes - nuestro calendario se llena rápidamente! Asegura tu fecha hoy y déjanos ayudarte a crear una celebración inolvidable.",
+      "bookYourEvent": "Reserva tu Evento",
+      "seeWhatsIncluded": "Ver Qué Incluye",
+      "questions": [
+        {
+          "question": "¿Hay estacionamiento disponible?",
+          "answer": "Sí, hay más de 70 espacios de estacionamiento GRATUITOS disponibles tanto al frente como detrás del lugar Slice en la propiedad."
+        },
+        {
+          "question": "¿Qué se requiere para reservar la fecha de mi evento?",
+          "answer": "Requerimos un depósito de un tercio del estimado de la factura. Este depósito se debe al firmar el acuerdo de función para asegurar tu fecha."
+        },
+        {
+          "question": "¿Tienen seguridad?",
+          "answer": "La Seguridad es obligatoria para todos los eventos, se requiere una tarifa adicional."
+        },
+        {
+          "question": "¿Qué restricciones hay en las decoraciones?",
+          "answer": "Las decoraciones están permitidas. Los artículos pueden fijarse a las paredes del local con permiso específico del personal y usando material especificado. No se permiten brillos, confeti, arroz, bengalas. Las velas deben estar confinadas dentro de un contenedor de vidrio y las llamas deben estar por debajo del borde."
+        },
+        {
+          "question": "¿Su espacio es accesible para discapacitados?",
+          "answer": "Hay estacionamiento para discapacitados al frente del lugar y baños grandes accesibles."
+        },
+        {
+          "question": "¿Cuánto tiempo tengo para configurar y desmontar la decoración?",
+          "answer": "El tiempo de configuración para tu evento será determinado por el Gerente de Eventos. El acceso es típicamente dos horas antes del evento. Una hora después del tiempo establecido del evento se asigna para el desmontaje de proveedores."
+        },
+        {
+          "question": "¿Hay restricciones en proveedores externos?",
+          "answer": "El bar es solo interno. Puedes usar cualquier otro proveedor para otros servicios incluyendo Catering siempre que el proveedor tenga seguro de responsabilidad civil."
+        }
+      ]
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "El Lugar de Eventos Exclusivo y Principal de Weston",
+      "subtitle": "El lugar de eventos principal de Weston desde 2014. Especializándose en Bar/Bat Mitzvahs, Quinceañeras, cumpleaños y eventos corporativos con catering excepcional y comodidades modernas.",
+      "scrollDown": "DESPLAZAR HACIA ABAJO"
+    },
+    "stats": {
+      "eventsHosted": "EVENTOS REALIZADOS",
+      "clientSatisfaction": "SATISFACCIÓN DEL CLIENTE",
+      "guestCapacity": "CAPACIDAD DE INVITADOS",
+      "yearsExperience": "AÑOS DE EXPERIENCIA",
+      "averageRating": "CALIFICACIÓN PROMEDIO",
+      "totalReviews": "RESEÑAS TOTALES",
+      "fiveStarReviews": "RESEÑAS DE 5 ESTRELLAS",
+      "wouldRecommend": "RECOMENDARÍAN"
+    },
+    "features": {
+      "title": "¿Por Qué Elegir SLICE Weston?",
+      "subtitle": "Hemos redefinido lo que significa organizar un evento en el Sur de Florida. Cada detalle está diseñado para crear recuerdos que duran toda la vida.",
+      "allInclusive": {
+        "title": "Experiencia Todo Incluido",
+        "description": "Todo lo que necesitas está incluido - desde muebles premium e iluminación hasta catering profesional y servicios de bar. Sin tarifas ocultas, sin sorpresas."
+      },
+      "modernLuxury": {
+        "title": "Lujo Moderno",
+        "description": "Lugar de última generación con ambiente estilo club, iluminación LED, sistemas de sonido profesionales y diseños flexibles para cualquier tamaño de evento."
+      },
+      "personalAttention": {
+        "title": "Atención Personal",
+        "description": "Patty y su equipo brindan servicio personalizado desde la planificación hasta la ejecución. Estamos contigo en cada paso para asegurar la perfección."
+      }
+    },
+    "socialMedia": {
+      "title": "Sigue Nuestro Viaje",
+      "subtitle": "¡Mantente conectado con Slice Weston y ve la magia suceder en tiempo real! Síguenos para momentos detrás de escena, destacados de eventos y actualizaciones del lugar.",
+      "connectWithUs": "Conéctate Con Nosotros",
+      "description": "Síguenos en redes sociales para las últimas actualizaciones, destacados de eventos y momentos detrás de escena en SLICE Weston.",
+      "videoCaption": "Experimenta la atmósfera vibrante de SLICE Weston",
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "facebook": "Facebook"
+    },
+    "venueShowcase": {
+      "title": "Un Lugar Como Ningún Otro",
+      "description": "SLICE Weston combina la sofisticación de un club de alta gama con la calidez de un negocio familiar. Nuestro lugar con capacidad para 220 invitados incluye:",
+      "features": {
+        "0": "Pista de baile grande con iluminación de club",
+        "1": "Muebles de cuero premium y sillas chivari",
+        "2": "Sistemas de audio/video profesionales",
+        "3": "Múltiples áreas de asientos y espacios de bar",
+        "4": "Iluminación personalizada para cualquier tema"
+      }
+    },
+    "catering": {
+      "title": "Servicios de Catering Excepcionales",
+      "subtitle": "Desde aperitivos gourmet hasta postres decadentes, nuestro equipo culinario crea experiencias gastronómicas inolvidables.",
+      "heading": "Excelencia Culinaria",
+      "description": "Nuestro equipo de catering galardonado aporta años de experiencia. Nos especializamos en crear menús personalizados que reflejan tu evento único.",
+      "features": {
+        "0": "Diseño y planificación de menú personalizado",
+        "1": "Ingredientes frescos de origen local",
+        "2": "Presentación y servicio profesional",
+        "3": "Acomoda todas las restricciones dietéticas"
+      }
+    },
+    "eventTypes": {
+      "title": "Perfecto para Cada Celebración",
+      "subtitle": "Descubre nuestra diversa gama de tipos de eventos y ve cómo adaptamos cada experiencia a tu visión única y requisitos específicos.",
+      "barMitzvahs": {
+        "title": "Bar/Bat Mitzvahs",
+        "description": "Celebra este hito con nuestro equipo experimentado y ambiente familiar."
+      },
+      "quinceaneras": {
+        "title": "Quinceañeras",
+        "description": "Haz realidad tus sueños de quinceañera con nuestro hermoso lugar y servicio excepcional."
+      },
+      "birthdays": {
+        "title": "Celebraciones de Cumpleaños",
+        "description": "Desde los 16 dulces hasta cumpleaños importantes, hacemos que cada celebración sea especial."
+      },
+      "corporate": {
+        "title": "Eventos Corporativos",
+        "description": "Ambiente profesional para reuniones, presentaciones y celebraciones corporativas."
+      },
+      "private": {
+        "title": "Fiestas Privadas",
+        "description": "Cualquier ocasión se vuelve extraordinaria en nuestro espacio versátil y acogedor."
+      }
+    },
+    "eventsGallery": {
+      "title": "Desde Bar/Bat Mitzvahs hasta Eventos Corporativos",
+      "subtitle": "Nuestro lugar versátil se transforma para crear la atmósfera perfecta para cualquier celebración. Ya sea un cumpleaños importante, reunión corporativa o ceremonia especial, hacemos cada evento inolvidable.",
+      "features": {
+        "1": "Configuraciones de espacio flexibles para cualquier tamaño de grupo",
+        "2": "Planificación y coordinación profesional de eventos",
+        "3": "Sistemas de iluminación y sonido personalizables"
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Crear Algo Increíble?",
+      "subtitle": "¡Ven a ver por qué Slice Weston es el lugar para tu próximo gran evento! Únete a cientos de clientes felices que han celebrado sus momentos especiales con nosotros."
+    },
+    "tiktokVideo": {
+      "title": "¡Ve la Magia en Acción!",
+      "description": "Descubre por qué SLICE Weston es el lugar perfecto para tu evento especial. Ve detrás de escena y experimenta la excelencia que nos hace únicos."
+    },
+    "tiktokQr": {
+      "title": "Síguenos en TikTok",
+      "subtitle": "Escanea el código QR para seguir a SLICE Weston en TikTok para las últimas actualizaciones y contenido detrás de escena",
+      "quickFollow": "Seguimiento Rápido",
+      "description": "Escanea el código QR con la cámara de tu teléfono para seguirnos instantáneamente en TikTok y ver nuestros últimos destacados de eventos, momentos detrás de escena y actualizaciones del lugar.",
+      "followButton": "Seguir @sliceweston"
+    },
+    "photoShowcase": {
+      "title": "Destacados del Lugar",
+      "subtitle": "Experimenta la belleza de SLICE Weston",
+      "seeGallery": "Ver Nuestra Galería"
+    },
+    "accessibility": {
+      "logoAlt": "SLICE WESTON",
+      "venueInteriorAlt": "Interior del lugar SLICE Weston",
+      "instagramProfileTitle": "Perfil de Instagram de Slice Weston",
+      "followInstagram": "Síguenos en Instagram",
+      "followTiktok": "Síguenos en TikTok",
+      "followFacebook": "Síguenos en Facebook",
+      "instagramAlt": "Instagram",
+      "tiktokAlt": "TikTok",
+      "facebookAlt": "Facebook",
+      "videoNotSupported": "Tu navegador no soporta el elemento de video."
+    },
+    "components": {
+      "photoGallery": {
+        "title": "Galería de Fotos",
+        "previousPhoto": "Foto Anterior",
+        "nextPhoto": "Siguiente Foto",
+        "clickToZoom": "Haz clic para hacer zoom • Desplázate para ajustar"
+      },
+      "accessibility": {
+        "openSettings": "Abrir configuración de accesibilidad",
+        "closeSettings": "Cerrar configuración de accesibilidad",
+        "settingsTitle": "Configuración de Accesibilidad"
+      },
+    "floatingMenu": {
+      "showMenu": "Mostrar menú flotante",
+      "openCategories": "Abrir menú de categorías",
+      "hideMenu": "Ocultar menú flotante",
+      "closeMenu": "Cerrar menú"
+    },
+    "lightbox": {
+      "readyToBook": "Listo Para Reservar"
+    }
+    },
+    "reviews": {
+      "mayteGarcia": {
+        "text": "¡Organizamos nuestra celebración de Regreso a Clases en Slice y no podríamos haber pedido una mejor experiencia! El lugar es absolutamente hermoso, el personal fue increíble, y se esforzaron al máximo para asegurar que fuera una noche memorable para todos. ¡Estamos muy agradecidos por su hospitalidad y recomendamos altamente Slice para cualquier evento especial!"
+      },
+      "kalhanRaina": {
+        "text": "Patty es tan increíble y servicial, un nivel de hospitalidad que te haría pensar que estás teniendo una fiesta en su casa y no en un lugar de eventos. Todo está arreglado hermosamente y el servicio es perfecto."
+      },
+      "alinaGonzalez": {
+        "text": "Patty es fantástica. Siempre respondió rápidamente, ofreció excelentes sugerencias, y estaba apasionada por hacer que mi fiesta de cumpleaños fuera especial. Su personal también fue muy amigable y acogedor. El lugar es perfecto y los sofás blancos son un toque tan agradable alrededor de la pista de baile. Definitivamente tendría otra fiesta aquí. A mis invitados también les encantó. Gracias por todo. Eres una anfitriona increíble."
+      },
+      "sarahJohnson": {
+        "text": "¡Lugar absolutamente increíble! El espacio es hermoso y Patty y su equipo hicieron que la quinceañera de nuestra hija fuera absolutamente perfecta. Cada detalle fue manejado con cuidado y profesionalismo. ¡Altamente recomendado!"
+      },
+      "michaelRodriguez": {
+        "text": "SLICE Weston superó todas nuestras expectativas para nuestro evento corporativo. Las comodidades modernas, el personal profesional y la atención al detalle hicieron que fuera una experiencia memorable para todos nuestros invitados. ¡Definitivamente reservaremos de nuevo!"
+      },
+      "jenniferLee": {
+        "text": "¡Patty y su equipo son simplemente increíbles! Hicieron que nuestra recepción de boda fuera absolutamente perfecta. El lugar es impresionante, la comida estaba deliciosa, y el servicio fue impecable. ¡Gracias por hacer que nuestro día especial fuera inolvidable!"
+      }
+    }
+  },
+  "contact": {
+    "title": "Información de Contacto",
+    "address": "Dirección:",
+    "phone": "Teléfono:",
+    "email": "Correo:",
+    "hours": "Horarios:",
+    "fullAddress": "2600 Glades Circle Suite 1100<br />Weston, Florida 33327",
+    "phoneNumber": "954-557-7086",
+    "emailAddress": "info@sliceweston.com",
+    "businessHours": "Lunes - Viernes: 9:00 AM - 6:00 PM<br />Sábado: 10:00 AM - 4:00 PM<br />Domingo: Por Cita"
+  },
+  "accessibility": {
+    "title": "Configuración de Accesibilidad",
+    "language": "Idioma",
+    "languageDesc": "Elige tu idioma preferido",
+    "disableVideos": "Desactivar Videos",
+    "disableVideosDesc": "Apagar todos los fondos de video",
+    "reduceMotion": "Reducir Movimiento",
+    "reduceMotionDesc": "Minimizar animaciones y transiciones",
+    "highContrast": "Alto Contraste",
+    "highContrastDesc": "Aumentar el contraste de color para mejor legibilidad",
+    "fullscreen": "Pantalla Completa",
+    "fullscreenDesc": "Alternar modo de pantalla completa para mejor enfoque",
+    "largeText": "Texto Grande",
+    "largeTextDesc": "Aumentar el tamaño del texto para mejor legibilidad",
+    "changeFontColor": "Alternar Colores del Menú",
+    "changeFontColorDesc": "Cambiar menú flotante a colores negro/blanco o blanco/negro"
+  },
+  "language": {
+    "selectLanguage": "Seleccionar Idioma",
+    "english": "English",
+    "spanish": "Español",
+    "portuguese": "Português",
+    "french": "Français"
+  },
+  "footer": {
+    "tagline": "¿Listo para una Gran Celebración?",
+    "description": "El Lugar de Eventos Principal de Weston",
+    "quickLinks": "Enlaces Rápidos",
+    "services": "Servicios",
+    "contactUs": "Contáctanos",
+    "findUs": "Encuéntranos",
+    "weddings": "Bodas y Recepciones",
+    "corporateEvents": "Eventos Corporativos",
+    "birthdayCelebrations": "Celebraciones de Cumpleaños",
+    "copyright": "© 2024 SLICE Weston. Todos los derechos reservados."
+  },
+  "categories": {
+    "whatsIncluded": "Todo incluido en tu evento",
+    "catering": "Servicios de catering de clase mundial",
+    "celebrations": "Perfecto para cada celebración",
+    "gallery": "Fotos y Videos de nuestros eventos",
+    "testimonials": "Lo que dicen nuestros clientes en Google",
+    "about": "Acerca de SLICE Weston",
+    "meetOwner": "Conoce a Patty, nuestra propietaria",
+    "faq": "Preguntas frecuentes",
+    "contact": "Ponte en contacto con nosotros"
+  },
+  "pages": {
+    "catering": {
+      "title": "Servicios de Catering",
+      "subtitle": "Cocina excepcional para tu evento especial",
+      "description": "Nuestro equipo de catering profesional crea experiencias gastronómicas memorables adaptadas a tu evento."
+    },
+    "gallery": {
+      "title": "Fotos y Videos",
+      "subtitle": "Ve la magia de SLICE Weston",
+      "description": "Navega nuestra colección de fotos y videos de eventos que muestran nuestro hermoso lugar."
+    },
+    "about": {
+      "title": "Acerca de SLICE Weston",
+      "subtitle": "Tu lugar de eventos principal en el Sur de Florida",
+      "description": "Aprende más sobre nuestra historia, misión y compromiso de crear celebraciones inolvidables.",
+      "ourStory": "Nuestra Historia",
+      "ourStoryText": "SLICE Weston ha sido el lugar de eventos principal en Weston, Florida desde 2014. Nos especializamos en crear celebraciones inolvidables para bodas, eventos corporativos, fiestas de cumpleaños y ocasiones especiales.",
+      "experience": {
+        "title": "Nuestra Experiencia",
+        "description1": "A lo largo de los años, hemos organizado eventos para clientes incluyendo Los Florida Marlins, jugadores de Miami Dolphins.",
+        "description2": "Junto con Estrellas del Canto Internacional de Miami, Venezuela, Colombia y Jamaica.",
+        "description3": "Cada detalle es atendido mientras nosotros hacemos el trabajo para que tú puedas disfrutar la fiesta.",
+        "professionalExpertise": {
+          "title": "Experiencia Profesional",
+          "description": "En el mundo de hoy con tantas responsabilidades, nos enorgullecemos de nuestro conocimiento del negocio de eventos y el detalle al servicio al cliente que es esencial para ti."
+        },
+        "investmentProtection": {
+          "title": "Protección de Inversión",
+          "description": "Estás invirtiendo mucho en tu evento. Trabaja con profesionales que asegurarán que tu evento sea un éxito."
+        },
+        "provenTrackRecord": {
+          "title": "Historial Comprobado",
+          "description": "Hemos coordinado miles de eventos durante los años pasados, y estamos orgullosos de estar aquí para organizar tu próximo evento."
+        }
+      },
+      "team": {
+        "title": "Conoce al Equipo",
+        "pattyLeon": {
+          "name": "Patty Leon",
+          "role": "Directora de Catering",
+          "description": "Patty es el corazón y alma de Slice Weston. Con años de experiencia en planificación de eventos, aporta creatividad, atención al detalle y cuidado personal a cada evento. Su dedicación para hacer que cada celebración sea especial es lo que distingue a Slice Weston."
+        }
+      },
+      "floorPlan": {
+        "title": "Plano del Piso",
+        "altText": "Plano del Piso de Slice Weston - Hasta 200 Invitados",
+        "clickToEnlarge": "Haz clic para ampliar",
+        "flexibleSpace": {
+          "title": "Configuración de Espacio Flexible",
+          "features": [
+            "Espacio principal de eventos con opciones de diseño flexible",
+            "Área de bar profesional con comodidades modernas",
+            "Áreas separadas para ceremonias y recepciones",
+            "Cocina profesional e instalaciones de catering",
+            "Espacio al aire libre para ceremonias y horas de cóctel",
+            "Instalaciones accesibles para todos los invitados"
+          ]
+        },
+        "modal": {
+          "title": "Plano del Piso de SLICE Weston",
+          "altText": "Plano del Piso de SLICE Weston - Vista de Tamaño Completo",
+          "description": "Hasta 200 Invitados • Configuración de Espacio Flexible",
+          "closeLabel": "Cerrar plano del piso"
+        }
+      },
+      "contact": {
+        "title": "Contáctanos",
+        "getInTouch": "Ponte en Contacto",
+        "address": "Dirección:",
+        "phone": "Teléfono:",
+        "email": "Correo:",
+        "hours": "Horarios:",
+        "fullAddress": "2600 Glades Circle Suite 1100<br />Weston, Florida 33327",
+        "phoneNumber": "954-557-7086",
+        "emailAddress": "info@sliceweston.com",
+        "businessHours": "Solo con cita<br />Disponible para recorridos y consultas",
+        "requestInfo": "Solicitar Información",
+        "name": "Nombre",
+        "email": "Correo",
+        "eventType": "Tipo de Evento",
+        "message": "Mensaje",
+        "namePlaceholder": "Tu nombre",
+        "emailPlaceholder": "tu@correo.com",
+        "selectEventType": "Selecciona tipo de evento",
+        "messagePlaceholder": "Cuéntanos sobre tu evento...",
+        "sendMessage": "Enviar Mensaje",
+        "eventTypes": {
+          "wedding": "Boda",
+          "mitzvah": "Bar/Bat Mitzvah",
+          "quinceanera": "Quinceañera",
+          "birthday": "Fiesta de Cumpleaños",
+          "corporate": "Evento Corporativo",
+          "other": "Otro"
+        }
+      },
+      "cta": {
+        "title": "¿Listo para Visitar Slice Weston?",
+        "subtitle": "Programa un recorrido personal para ver nuestro lugar y discutir las necesidades de tu evento.",
+        "scheduleTour": "Programar Recorrido",
+        "callNow": "Llama Ahora: 954-557-7086"
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Todo lo que necesitas saber sobre organizar tu evento en SLICE Weston",
+      "description": "Encuentra respuestas a preguntas comunes sobre nuestro lugar, servicios y proceso de planificación de eventos."
+    },
+    "whatsIncluded": {
+      "title": "Qué Incluye",
+      "subtitle": "Todo lo que necesitas para tu evento perfecto",
+      "description": "Descubre todas las comodidades y servicios incluidos con tu paquete de evento SLICE Weston.",
+      "hero": {
+        "title": "Qué Incluye",
+        "subtitle": "No debería ser tan complicado organizar tu evento perfecto. Déjanos manejar los detalles con nuestro hermoso y completo lugar."
+      },
+      "mainMessage": {
+        "title": "SLICE está equipado con todo lo necesario para tu evento",
+        "subtitle": "Artículos que la mayoría de lugares cobran extra vienen incluidos:"
+      },
+      "venuePhotos": {
+        "title": "Galería del Lugar",
+        "photo1": {
+          "alt": "Interior del lugar SLICE Weston mostrando espacio moderno para eventos",
+          "caption": "Espacio moderno para eventos con iluminación profesional y configuración elegante"
+        },
+        "photo2": {
+          "alt": "Lugar SLICE Weston mostrando área de comedor y entretenimiento",
+          "caption": "Amplia área de comedor con muebles premium e iluminación ambiental"
+        }
+      },
+      "coreFeatures": {
+        "title": "Características Principales del Lugar",
+        "features": {
+          "openSpace": {
+            "title": "Espacio Abierto",
+            "description": "Configuración personalizada acomoda hasta 220 invitados"
+          },
+          "danceFloor": {
+            "title": "Pista de Baile Grande",
+            "description": "Mucho espacio para bailar y entretenimiento"
+          },
+          "lighting": {
+            "title": "Iluminación de Baile de Club",
+            "description": "Sistema de iluminación profesional para ambiente"
+          },
+          "furniture": {
+            "title": "Muebles Modernos de Club",
+            "description": "Opciones de asientos elegantes y cómodas"
+          },
+          "couches": {
+            "title": "Sofás de Cuero de Salón",
+            "description": "Asientos premium para áreas de relajación"
+          },
+          "chairs": {
+            "title": "Sillas Chivari Mejoradas",
+            "description": "Sillas de comedor elegantes para asientos formales"
+          },
+          "avSystems": {
+            "title": "Sistemas de Audio / Video",
+            "description": "Equipo profesional de sonido y visual"
+          },
+          "buffetArea": {
+            "title": "Área de Buffet y Estación",
+            "description": "Espacios dedicados para servicio de comida"
+          },
+          "seatingAreas": {
+            "title": "Múltiples Áreas de Asientos",
+            "description": "Varias configuraciones de asientos disponibles"
+          },
+          "barArea": {
+            "title": "Área de Bar de Hora de Cóctel",
+            "description": "Configuración profesional de bar para bebidas"
+          },
+          "djStage": {
+            "title": "Escenario de DJ",
+            "description": "Plataforma elevada para entretenimiento"
+          },
+          "themeLighting": {
+            "title": "Iluminación Temática de Lugar Multicolor",
+            "description": "Iluminación personalizable para cualquier tema"
+          },
+          "tableOptions": {
+            "title": "Múltiples Opciones de Mesa",
+            "description": "Configuraciones de mesa flexibles"
+          },
+          "entrance": {
+            "title": "Entrada Exterior Iluminada",
+            "description": "Entrada acogedora con iluminación"
+          }
+        }
+      },
+      "includedExtras": {
+        "title": "SLICE incluye los extras a continuación en su alquiler de lugar",
+        "furnitureSeating": {
+          "title": "Muebles y Asientos",
+          "items": [
+            "9 Mesas altas de vidrio con taburetes de bar negros",
+            "7 Sofás de cuero blancos con 8 mesas de café blancas",
+            "3 Sofás de amor de cuero negro",
+            "2 Mesas altas comunitarias (cada una asienta 8)",
+            "Sillas Chivari plateadas",
+            "Mesas de 10 a solicitud (Sin tarifa extra)"
+          ]
+        },
+        "suppliesEquipment": {
+          "title": "Suministros y Equipo",
+          "items": [
+            "Servilletas, Platos, Cristalería y Cubiertos",
+            "Iluminación de color de última generación",
+            "Iluminación activada por movimiento y sonido para bailar",
+            "Reproductor de DVD para video personal",
+            "4 Televisiones de pantalla plana",
+            "1 Pantalla de video grande de pared",
+            "Escenario grande (8'x20')"
+          ]
+        }
+      },
+      "services": {
+        "title": "Nuestros Servicios",
+        "modernVenue": {
+          "title": "LUGAR MODERNO",
+          "description": "Instalación de última generación con todas las comodidades modernas incluidas en tu alquiler."
+        },
+        "catering": {
+          "title": "CATERING",
+          "description": "Servicios de catering profesional con planificación y ejecución de menú personalizado."
+        },
+        "barServices": {
+          "title": "SERVICIOS DE BAR",
+          "description": "Configuración profesional de bar y servicio de bebidas para tu evento."
+        }
+      },
+      "cta": {
+        "title": "¿Listo para Experimentar SLICE Weston?",
+        "subtitle": "Contáctanos para discutir tu evento y ver nuestro lugar en persona.",
+        "scheduleTour": "Programar un Recorrido",
+        "viewCatering": "Ver Opciones de Catering"
+      }
+    },
+    "celebrations": {
+      "title": "Celebraciones",
+      "subtitle": "Perfecto para cada ocasión especial",
+      "description": "Explora los tipos de celebraciones que organizamos y ve cómo hacemos que cada evento sea único.",
+      "typesOfCelebrations": "¿Por Qué Elegir SLICE Weston?",
+      "specializeInCreating": "Nos especializamos en crear momentos mágicos para cada tipo de celebración.\nCada detalle está diseñado para crear recuerdos que duran toda la vida.",
+      "celebrationCards": {
+        "weddings": {
+          "title": "Bodas y Recepciones",
+          "description": "Crea tu día de boda perfecto con nuestro lugar elegante y servicio excepcional."
+        },
+        "barBatMitzvahs": {
+          "title": "Bar/Bat Mitzvahs",
+          "description": "Celebra este hito importante con nuestro equipo experimentado y ambiente familiar."
+        },
+        "quinceaneras": {
+          "title": "Quinceañeras",
+          "description": "Haz realidad tus sueños de quinceañera con nuestro hermoso lugar y servicio excepcional."
+        },
+        "birthdays": {
+          "title": "Celebraciones de Cumpleaños",
+          "description": "Desde los 16 dulces hasta cumpleaños importantes, hacemos que cada celebración sea especial y memorable."
+        },
+        "corporate": {
+          "title": "Eventos Corporativos",
+          "description": "Ambiente profesional para reuniones, presentaciones y celebraciones corporativas."
+        },
+        "specialEvents": {
+          "title": "Eventos Especiales y Reuniones",
+          "description": "Desde reuniones familiares hasta fiestas navideñas, creamos experiencias memorables para cualquier ocasión especial."
+        }
+      },
+      "weddings": {
+        "title": "Bodas y Recepciones",
+        "description": "Crea tu día de boda perfecto con nuestro lugar elegante y servicio excepcional.",
+        "button": "Planifica tu Boda"
+      },
+      "mitzvahs": {
+        "title": "Bar/Bat Mitzvahs",
+        "description": "Celebra este hito importante con nuestro equipo experimentado y ambiente familiar.",
+        "button": "Planifica tu Mitzvah"
+      },
+      "quinceaneras": {
+        "title": "Quinceañeras",
+        "description": "Haz realidad tus sueños de quinceañera con nuestro hermoso lugar y servicio excepcional.",
+        "button": "Planifica tu Quinceañera"
+      },
+      "birthdays": {
+        "title": "Celebraciones de Cumpleaños",
+        "description": "Desde los 16 dulces hasta cumpleaños importantes, hacemos que cada celebración sea especial y memorable.",
+        "button": "Planifica tu Cumpleaños"
+      },
+      "corporate": {
+        "title": "Eventos Corporativos",
+        "description": "Ambiente profesional para reuniones, presentaciones y celebraciones corporativas.",
+        "button": "Planifica tu Evento"
+      },
+      "private": {
+        "title": "Eventos Especiales y Reuniones",
+        "description": "Desde reuniones familiares hasta fiestas navideñas, creamos experiencias memorables para cualquier ocasión especial.",
+        "button": "Planifica tu Evento"
+      },
+      "cta": {
+        "title": "¿Listo para Comenzar a Planificar?",
+        "subtitle": "Creemos algo increíble juntos. Contáctanos para discutir tu celebración.",
+        "getStarted": "Comenzar",
+        "call": "Llama (954) 557-7086"
+      }
+    },
+    "testimonials": {
+      "title": "Reseñas de Google",
+      "subtitle": "Lo que dicen nuestros clientes en Google",
+      "description": "Lee reseñas auténticas y testimonios de nuestros clientes satisfechos en Google."
+    },
+    "meetOwner": {
+      "title": "Conoce al Propietario",
+      "subtitle": "Conoce a Patty Leon",
+      "description": "Aprende sobre la propietaria apasionada detrás de SLICE Weston y su compromiso con la excelencia.",
+      "hero": {
+        "title": "Conoce al Propietario",
+        "subtitle": "Patty Leon - Lugar de Eventos SLICE Weston"
+      },
+      "owner": {
+        "name": "Patty Leon",
+        "role": "Propietaria Principal y Gerente General",
+        "altText": "Patty Leon - Propietaria de SLICE Weston"
+      },
+      "story": {
+        "intro": "La Propiedad de SLICE es Local, Experimentada tanto en dirigir como en hacer catering de eventos, y lo más importante conocida por su servicio excepcional.",
+        "background": "Patty Leon es la propietaria principal y gerente general del lugar de eventos. Nacida y criada en Miami de descendencia peruana, ha vivido en Weston Florida desde mediados de los 90. Tiene más de 12 años de experiencia coordinando y ejecutando eventos, muchos como Directora de Catering en un club de campo local. Tiene una pasión por la comida, crear menús y ejecutar eventos. También tiene el sueño de convertirse en chef algún día. Su dedicación a sus clientes le ha ganado una reputación excelente y una larga lista de clientes satisfechos y recurrentes.",
+        "team": "Ha desarrollado un equipo dedicado a lo largo de los años que incluye; el chef ejecutivo, sous chefs, bartenders y personal de servicio. Este equipo conoce cada pulgada del lugar SLICE, lo que contribuye a que todos los eventos de SLICE se ejecuten sin problemas.",
+        "rebirth": "SLICE fue Renacido en 2014 bajo el liderazgo de Patty después de una visita casual de un cliente a SLICE. Después de ver el lugar, Patty comenzó a visualizar que podría traer su experiencia en eventos a un lugar tan nuevo y ultramoderno en Weston. El plan se puso en movimiento después de una reunión con Ken Edelman, propietario del centro comercial de Weston. Juntos armaron un acuerdo para que Patty se hiciera cargo de Slice, trajera su experiencia y equipo y diera vida al lugar.",
+        "amenities": "Patty y el equipo están constantemente agregando nuevas comodidades al lugar incluyendo; nueva iluminación, muebles de salón agregados, pantallas de video adicionales, un nuevo bar blanco moderno junto con nuevas selecciones de elementos del menú.",
+        "cta": "Esperamos verte pronto en Slice Weston y esperamos con ansias la oportunidad de organizar tu próximo evento.",
+        "bookEvent": "Reserva tu Evento",
+        "call": "Llama (954) 557-7086"
+      },
+      "gallery": {
+        "title": "Patty en Acción",
+        "subtitle": "Detrás de escena con nuestra propietaria dedicada y su increíble equipo",
+        "photos": [
+          { "alt": "Patty Leon - Propietaria de SLICE Weston" },
+          { "alt": "Patty Leon - Coordinadora de Eventos" },
+          { "alt": "Patty Leon - Gerente General" },
+          { "alt": "Patty Leon - Equipo de SLICE Weston" },
+          { "alt": "Patty Leon - Planificación de Eventos" }
+        ]
+      },
+      "team": {
+        "title": "Nuestro Equipo Dedicado",
+        "subtitle": "Patty ha reunido un increíble equipo de profesionales que comparten su pasión por crear eventos inolvidables",
+        "executiveChef": {
+          "title": "Chef Ejecutivo",
+          "description": "Experiencia culinaria y creación de menús"
+        },
+        "sousChefs": {
+          "title": "Sous Chefs",
+          "description": "Apoyo a las operaciones de cocina"
+        },
+        "bartenders": {
+          "title": "Bartenders",
+          "description": "Servicio profesional de bar"
+        },
+        "serverStaff": {
+          "title": "Personal de Servicio",
+          "description": "Servicio excepcional a invitados"
+        }
+      }
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "subtitle": "Planifiquemos tu evento perfecto",
+      "description": "Ponte en contacto con nuestro equipo para discutir las necesidades de tu evento y reservar tu día especial.",
+      "getInTouch": "Ponte en Contacto",
+      "fullName": "Nombre Completo",
+      "emailAddress": "Dirección de Correo",
+      "phoneNumber": "Número de Teléfono",
+      "eventType": "Tipo de Evento",
+      "eventDate": "Fecha del Evento",
+      "guestCount": "Número de Invitados",
+      "message": "Mensaje",
+      "required": "requerido",
+      "yourFullName": "Tu nombre completo",
+      "yourEmail": "Tu dirección de correo",
+      "yourPhone": "Tu número de teléfono",
+      "selectEventType": "Selecciona tipo de evento",
+      "selectGuestCount": "Selecciona número de invitados",
+      "selectDate": "Selecciona fecha",
+      "numberOfGuests": "Número de invitados",
+      "tellUsMore": "Cuéntanos más sobre tu evento...",
+      "sendMessage": "Enviar Mensaje",
+      "contactInfo": "Información de Contacto",
+      "address": "Dirección",
+      "phone": "Teléfono",
+      "email": "Correo",
+      "hours": "Horarios de Atención",
+      "mondayFriday": "Lunes - Viernes: 9:00 AM - 6:00 PM",
+      "saturday": "Sábado: 10:00 AM - 4:00 PM",
+      "sunday": "Domingo: Solo con cita"
+    }
+  },
+  "catering": {
+    "hero": {
+      "title": "Catering de Clase Mundial",
+      "subtitle": "Desde reuniones íntimas hasta celebraciones grandiosas, nuestro equipo culinario crea experiencias gastronómicas inolvidables"
+    },
+    "packages": {
+      "title": "Paquetes de Catering",
+      "basic": {
+        "title": "Paquete Básico",
+        "price": "Desde $45/persona",
+        "features": [
+          "2 selecciones de aperitivos",
+          "1 opción de plato principal",
+          "2 guarniciones",
+          "Selección de postre",
+          "Bebidas no alcohólicas",
+          "Configuración básica de mesa"
+        ]
+      },
+      "premium": {
+        "title": "Paquete Premium",
+        "price": "Desde $65/persona",
+        "features": [
+          "4 selecciones de aperitivos",
+          "2 opciones de plato principal",
+          "3 guarniciones",
+          "Selección de postre premium",
+          "Servicio de vino y cerveza",
+          "Configuración premium de mesa",
+          "Presentación de mesa del chef"
+        ]
+      },
+      "luxury": {
+        "title": "Paquete de Lujo",
+        "price": "Desde $95/persona",
+        "features": [
+          "6 selecciones de aperitivos",
+          "3 opciones de plato principal",
+          "4 guarniciones",
+          "Selección de postre artesanal",
+          "Servicio completo de bar",
+          "Configuración de mesa de lujo",
+          "Atención personal del chef",
+          "Recomendaciones de maridaje de vinos"
+        ]
+      }
+    },
+    "dietary": {
+      "title": "Acomodaciones Dietéticas Especiales",
+      "vegetarian": {
+        "title": "Vegetariano",
+        "description": "Opciones creativas basadas en plantas"
+      },
+      "allergenFree": {
+        "title": "Libre de Alérgenos",
+        "description": "Opciones sin gluten, lácteos y nueces"
+      },
+      "vegan": {
+        "title": "Vegano",
+        "description": "Cocina 100% basada en plantas"
+      },
+      "kosher": {
+        "title": "Kosher",
+        "description": "Preparación kosher tradicional"
+      }
+    },
+    "cuisine": {
+      "title": "Estilos de Cocina",
+      "american": {
+        "title": "Clásicos Americanos",
+        "description": "Favoritos tradicionales con un toque gourmet - piensa en comida reconfortante elevada que satisface cada paladar."
+      },
+      "international": {
+        "title": "Fusión Internacional",
+        "description": "Sabores globales que traen emoción a tu evento - influencias mediterráneas, asiáticas y latinoamericanas."
+      },
+      "seasonal": {
+        "title": "Estacional y Local",
+        "description": "Ingredientes frescos de origen local que cambian con las estaciones para los mejores sabores posibles."
+      },
+      "custom": {
+        "title": "Creaciones Personalizadas",
+        "description": "Menús personalizados diseñados específicamente para tu evento y preferencias."
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Planificar tu Menú?",
+      "subtitle": "Discutamos tu visión y creemos la experiencia culinaria perfecta para tu evento."
+    }
+  },
+  "gallery": {
+    "hero": {
+      "title": "Fotos y Videos",
+      "subtitle": "Echa un vistazo a la magia que hemos creado juntos. Cada evento cuenta una historia, y estamos orgullosos de compartir estos hermosos momentos contigo."
+    },
+    "categories": {
+      "all": "Todos los Eventos",
+      "weddings": "Bodas",
+      "mitzvahs": "Bar/Bat Mitzvahs",
+      "quinces": "Quinceañeras",
+      "birthdays": "Cumpleaños",
+      "corporate": "Corporativo"
+    },
+    "galleryItems": {
+      "wedding1": "Recepción de Boda Elegante",
+      "mitzvah1": "Celebración de Bar Mitzvah",
+      "quince1": "Hermosa Quinceañera",
+      "birthday1": "Fiesta de 16 Años",
+      "corporate1": "Fiesta Navideña Corporativa",
+      "wedding2": "Ceremonia de Boda Íntima",
+      "mitzvah2": "Fiesta de Bat Mitzvah",
+      "quince2": "Recepción de Quinceañera",
+      "birthday2": "Celebración de 50 Años",
+      "corporate2": "Reunión de Empresa",
+      "wedding3": "Configuración de Recepción de Boda",
+      "mitzvah3": "Celebración de Mitzvah"
+    },
+    "noResults": {
+      "title": "No se Encontraron Fotos",
+      "subtitle": "Estamos trabajando en agregar más fotos a esta categoría."
+    },
+    "videos": {
+      "title": "Videos de Eventos",
+      "subtitle": "Mira destacados de algunos de nuestros eventos más memorables",
+      "weddingHighlights": "Destacados de Boda",
+      "barMitzvahCelebration": "Celebración de Bar Mitzvah",
+      "quinceaneraParty": "Fiesta de Quinceañera"
+    },
+    "cta": {
+      "title": "¿Listo para Crear tus Propios Recuerdos?",
+      "subtitle": "Agreguemos tu evento a nuestra galería. Contáctanos para comenzar a planificar.",
+      "planEvent": "Planifica tu Evento",
+      "call": "Llama (954) 557-7086"
+    },
+    "buttons": {
+      "viewFullSize": "Ver Tamaño Completo"
+    }
+  }
+}

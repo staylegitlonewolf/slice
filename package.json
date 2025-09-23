@@ -1,0 +1,52 @@
+{
+  "name": "slice-weston-modern",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://sliceweston.com/",
+  "description": "Modern website for Slice Weston Event Venue - Weston, Florida",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:css": "stylelint app/**/*.css",
+    "preview": "vite preview",
+    "deploy": "npm run build && git add dist -f && git commit -m 'deploy' && git subtree push --prefix dist origin gh-pages"
+  },
+  "dependencies": {
+    "@remix-run/react": "^2.17.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.8.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^24.3.0",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "stylelint": "^16.24.0",
+    "stylelint-config-standard": "^39.0.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "keywords": [
+    "slice-weston",
+    "event-venue",
+    "weston-florida",
+    "weddings",
+    "bar-mitzvah",
+    "quinceanera",
+    "corporate-events",
+    "catering"
+  ],
+  "author": "Slice Weston Team",
+  "license": "MIT"
+}

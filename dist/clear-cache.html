@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear Cache - SLICE Weston</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        button {
+            background: #ec4899;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 10px 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #db2777;
+        }
+        .status {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 6px;
+            background: #f0f9ff;
+            border: 1px solid #0ea5e9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Clear Cache & Service Worker</h1>
+        <p>Use these buttons to clear cached data and service worker registrations.</p>
+        
+        <button onclick="clearServiceWorker()">Clear Service Worker</button>
+        <button onclick="clearAllCaches()">Clear All Caches</button>
+        <button onclick="clearLocalStorage()">Clear Local Storage</button>
+        <button onclick="reloadPage()">Reload Page</button>
+        
+        <div id="status" class="status" style="display: none;"></div>
+    </div>
+
+    <script>
+        function showStatus(message, type = 'info') {
+            const status = document.getElementById('status');
+            status.textContent = message;
+            status.style.display = 'block';
+            status.style.background = type === 'error' ? '#fef2f2' : '#f0f9ff';
+            status.style.borderColor = type === 'error' ? '#ef4444' : '#0ea5e9';
+        }
+
+        async function clearServiceWorker() {
+            try {
+                if ('serviceWorker' in navigator) {
+                    const registrations = await navigator.serviceWorker.getRegistrations();
+                    for (let registration of registrations) {
+                        await registration.unregister();
+                    }
+                    showStatus(`Unregistered ${registrations.length} service worker(s)`);
+                } else {
+                    showStatus('Service Worker not supported');
+                }
+            } catch (error) {
+                showStatus('Error clearing service worker: ' + error.message, 'error');
+            }
+        }
+
+        async function clearAllCaches() {
+            try {
+                if ('caches' in window) {
+                    const cacheNames = await caches.keys();
+                    await Promise.all(
+                        cacheNames.map(cacheName => caches.delete(cacheName))
+                    );
+                    showStatus(`Cleared ${cacheNames.length} cache(s)`);
+                } else {
+                    showStatus('Cache API not supported');
+                }
+            } catch (error) {
+                showStatus('Error clearing caches: ' + error.message, 'error');
+            }
+        }
+
+        function clearLocalStorage() {
+            try {
+                localStorage.clear();
+                sessionStorage.clear();
+                showStatus('Cleared local and session storage');
+            } catch (error) {
+                showStatus('Error clearing storage: ' + error.message, 'error');
+            }
+        }
+
+        function reloadPage() {
+            window.location.reload(true);
+        }
+
+        // Auto-clear on page load
+        window.addEventListener('load', () => {
+            clearServiceWorker();
+            clearAllCaches();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    
+    <!-- Always start with light theme, no localStorage -->
+    <script>
+      (function() {
+        // Clear any existing localStorage
+        localStorage.clear();
+        sessionStorage.clear();
+        
+        // Always start with light theme
+        document.documentElement.setAttribute('data-theme', 'light');
+      })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    
+    <!-- iOS App-like Experience -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="SLICE Weston" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="msapplication-navbutton-color" content="#000000" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <!-- Primary Meta Tags -->
+    <title>SLICE Weston - Premier Event Venue in Weston, Florida | Weddings, Parties & Celebrations</title>
+    <meta name="title" content="SLICE Weston - Premier Event Venue in Weston, Florida | Weddings, Parties & Celebrations" />
+    <meta name="description" content="Weston's premier event venue since 2014. Host your wedding, birthday, corporate event, or celebration at SLICE Weston. All-inclusive packages with catering, lighting, and professional service." />
+    <meta name="keywords" content="event venue Weston Florida, wedding venue Weston, party venue Weston, corporate events Weston, birthday party venue, quinceanera venue, bar mitzvah venue, event planning Weston" />
+    <meta name="author" content="SLICE Weston" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    
+    <!-- Permissions Policy -->
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=(), ambient-light-sensor=(), autoplay=(), encrypted-media=(), fullscreen=(), picture-in-picture=(), interest-cohort=(), otp-credentials=(), private-state-token-issuance=(), private-state-token-redemption=(), shared-storage=(), shared-storage-select-url=(), attribution-reporting=()" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sliceweston.com/" />
+    <meta property="og:title" content="SLICE Weston - Premier Event Venue in Weston, Florida" />
+    <meta property="og:description" content="Weston's premier event venue since 2014. Experience modern luxury, exceptional catering, and unforgettable celebrations." />
+    <meta property="og:image" content="/OGlogo.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="SLICE Weston" />
+    <meta property="og:locale" content="en_US" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://sliceweston.com/" />
+    <meta property="twitter:title" content="SLICE Weston - Premier Event Venue in Weston, Florida" />
+    <meta property="twitter:description" content="Weston's premier event venue since 2014. Experience modern luxury, exceptional catering, and unforgettable celebrations." />
+    <meta property="twitter:image" content="/OGlogo.png" />
+    
+    <!-- Additional SEO -->
+    <meta name="geo.region" content="US-FL" />
+    <meta name="geo.placename" content="Weston" />
+    <meta name="geo.position" content="26.1006;-80.3641" />
+    <meta name="ICBM" content="26.1006, -80.3641" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EventVenue",
+      "name": "SLICE Weston",
+      "description": "Weston's premier event venue since 2014. Experience modern luxury, exceptional catering, and unforgettable celebrations.",
+      "url": "https://sliceweston.com",
+      "telephone": "+1-954-557-7086",
+      "email": "info@sliceweston.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2600 Glades Circle Suite 1100",
+        "addressLocality": "Weston",
+        "addressRegion": "FL",
+        "postalCode": "33327",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "26.1006",
+        "longitude": "-80.3641"
+      },
+      "openingHours": "Mo-Fr 09:00-18:00, Sa 10:00-16:00",
+      "priceRange": "$$",
+      "amenityFeature": [
+        "Parking",
+        "Catering",
+        "Lighting",
+        "Sound System",
+        "Dance Floor",
+        "Bar Service"
+      ],
+      "maximumAttendeeCapacity": 220,
+      "foundingDate": "2014"
+    }
+    </script>
+    
+    <!-- Preload Critical Resources - Temporarily disabled to fix console errors -->
+    
+    <!-- Font Awesome - Removed to eliminate external API calls -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
