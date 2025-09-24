@@ -11,7 +11,7 @@ export default defineConfig({
     port: 5173, // Specify port explicitly
   },
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
     emptyOutDir: true,
     rollupOptions: {
       external: [],

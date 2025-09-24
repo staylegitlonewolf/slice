@@ -6,6 +6,7 @@
     <meta http-equiv="refresh" content="0; url=/slice/?redirect=1#%2F">
     <script>
       (function() {
+        // GitHub Pages SPA redirect: preserve path and query by moving them after '#'
         var path = window.location.pathname.replace(/^\/slice\//, '/');
         var search = window.location.search || '';
         var hash = window.location.hash || '';
