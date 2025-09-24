@@ -3663,6 +3663,12 @@ p {
   color: transparent;
 }
 
+/* Honor \n in translated subtitles */
+.hero-description,
+.hero-subtitle {
+  white-space: pre-line;
+}
+
 .hero-section.has-video .hero-video-overlay {
   background: rgba(0, 0, 0, 0.4) !important;
 }
@@ -3695,17 +3701,17 @@ p {
 
 /* ===== VENUE STATS SECTION ===== */
 .stats-showcase-section {
-  background: var(--slice-gradient-primary);
+  background: transparent;
   padding: 3rem 0;
 }
 
 /* Theme responsive stats */
 [data-theme="light"] .stats-showcase-section {
-  background: var(--slice-gradient-primary);
+  background: transparent;
 }
 
 [data-theme="dark"] .stats-showcase-section {
-  background: var(--slice-gradient-primary);
+  background: transparent;
 }
 
 /* Light theme stats */
@@ -14267,7 +14273,7 @@ button, .btn, input[type="button"], input[type="submit"] {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('/images/catering-hero.jpg') center/cover;
+  background: url('/3_Catering/desertHero.png') center/cover;
   opacity: 0.3;
   z-index: 1;
 }

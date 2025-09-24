@@ -104,7 +104,7 @@
   "home": {
     "hero": {
       "title": "Weston's Exclusive Premier Event Venue",
-      "subtitle": "Weston's premier event venue since 2014. Specializing in Bar/Bat Mitzvahs, Quinceañeras, birthdays, and corporate events with exceptional catering and modern amenities.",
+      "subtitle": "Weston's premier event venue since 2014.\nSpecializing in Bar/Bat Mitzvahs, Quinceañeras,\nbirthdays, and corporate events with\nexceptional catering and modern amenities.",
       "scrollDown": "SCROLL DOWN"
     },
     "stats": {
@@ -801,7 +801,7 @@
   "gallery": {
     "hero": {
       "title": "Photos & Videos",
-      "subtitle": "Take a look at the magic we've created together. Every event tells a story, and we're proud to share these beautiful moments with you."
+      "subtitle": "Take a look at the magic we've created together.\nEvery event tells a story, and we're proud to\nshare these beautiful moments with you."
     },
     "categories": {
       "all": "All Events",

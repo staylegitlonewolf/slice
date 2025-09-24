@@ -33,10 +33,10 @@ const MeetTheOwner: React.FC = () => {
             <div className="owner-intro-side-by-side mb-16">
               <div className="owner-photo-section">
                 <img 
-                  src="/MeetTheOwner/1.jpg" 
+                  src={`${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/1.jpg`} 
                   alt={tString('pages.meetOwner.owner.altText')} 
                   className="owner-photo-large"
-                  onClick={() => openImageModal('/MeetTheOwner/1.jpg')}
+                  onClick={() => openImageModal(`${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/1.jpg`)}
                 />
               </div>
               <div className="owner-info-section">
@@ -60,10 +60,10 @@ const MeetTheOwner: React.FC = () => {
                 <div className="story-photos-row mb-8">
                   <div className="story-photo-item">
                     <img 
-                      src="/MeetTheOwner/2.png" 
+                      src={`${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/2.png`} 
                       alt="Owner at event"
                       className="story-photo"
-                      onClick={() => openImageModal('/MeetTheOwner/2.png')}
+                      onClick={() => openImageModal(`${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/2.png`)}
                     />
                   </div>
                 </div>
@@ -77,10 +77,10 @@ const MeetTheOwner: React.FC = () => {
                   </div>
                   <div className="story-photo-content">
                     <img 
-                      src="/MeetTheOwner/0.png" 
+                      src={`${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/0.png`} 
                       alt="Owner hospitality moment"
                       className="story-photo-side"
-                      onClick={() => openImageModal('/MeetTheOwner/0.png')}
+                      onClick={() => openImageModal(`${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/0.png`)}
                     />
                   </div>
                 </div>
@@ -98,10 +98,10 @@ const MeetTheOwner: React.FC = () => {
                   </div>
                   <div className="story-photo-content">
                     <img 
-                      src="/MeetTheOwner/6.png" 
+                      src={`${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/6.png`} 
                       alt="Owner event planning"
                       className="story-photo-side"
-                      onClick={() => openImageModal('/MeetTheOwner/6.png')}
+                      onClick={() => openImageModal(`${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/6.png`)}
                     />
                   </div>
                 </div>
@@ -115,10 +115,10 @@ const MeetTheOwner: React.FC = () => {
                   </div>
                   <div className="story-photo-content">
                     <img 
-                      src="/MeetTheOwner/7.png" 
+                      src={`${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/7.png`} 
                       alt="Owner celebration"
                       className="story-photo-side"
-                      onClick={() => openImageModal('/MeetTheOwner/7.png')}
+                      onClick={() => openImageModal(`${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/7.png`)}
                     />
                   </div>
                 </div>
@@ -130,10 +130,10 @@ const MeetTheOwner: React.FC = () => {
                 {/* Amenities Photo */}
                 <div className="story-photo-single mb-8">
                   <img 
-                    src="/MeetTheOwner/4.png" 
+                    src={`${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/4.png`} 
                     alt="Venue amenities and improvements"
                     className="story-photo-wide"
-                    onClick={() => openImageModal('/MeetTheOwner/4.png')}
+                    onClick={() => openImageModal(`${(import.meta as any).env?.BASE_URL || '/'}MeetTheOwner/4.png`)}
                   />
                 </div>
 

@@ -186,11 +186,11 @@ const Home: React.FC = () => {
       date: new Date(Date.now() - 10 * 60 * 60 * 1000), // 10 hours ago
       text: t('home.reviews.mayteGarcia.text'),
       photos: [
-        withBase('/Google Review/MayteGarcia/1.png'),
-        withBase('/Google Review/MayteGarcia/2.png'), 
-        withBase('/Google Review/MayteGarcia/3.png'),
-        withBase('/Google Review/MayteGarcia/4.png'),
-        withBase('/Google Review/MayteGarcia/5.png')
+        withBase('/6_Testimonials/MayteGarcia/1.png'),
+        withBase('/6_Testimonials/MayteGarcia/2.png'), 
+        withBase('/6_Testimonials/MayteGarcia/3.png'),
+        withBase('/6_Testimonials/MayteGarcia/4.png'),
+        withBase('/6_Testimonials/MayteGarcia/5.png')
       ]
     },
     {
@@ -1046,7 +1046,7 @@ const Home: React.FC = () => {
                     muted
                     loop
                     playsInline
-                    poster={withBase('/Category/catering.png')}
+                  poster={withBase('/media/catering.png')}
                   >
                     <source src={withBase('/3_Catering/cateringVideo.mp4')} type="video/mp4" />
                     {t('home.accessibility.videoNotSupported')}
