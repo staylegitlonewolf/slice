@@ -68,7 +68,7 @@ initFullscreenExperience();
 // Register service worker for offline support (only in production)
 if ('serviceWorker' in navigator && import.meta.env.PROD) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register(`${(import.meta as any).env?.BASE_URL || '/'}sw.js`)
       .then((registration) => {
         console.log('SW registered: ', registration);
       })

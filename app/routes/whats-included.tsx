@@ -16,27 +16,29 @@ const WhatsIncluded: React.FC = () => {
   const closeFloorPlanModal = () => setIsFloorPlanModalOpen(false);
 
   // Create images array for PhotoViewer
+  const BASE = (import.meta as any).env?.BASE_URL || '/';
+  const withBase = (p: string) => (p.startsWith('/') ? `${BASE}${p.slice(1)}` : `${BASE}${p}`);
   const venueImages = [
-    { src: '/2_WhatsIncluded/0.png', alt: 'SLICE Weston Venue Showcase' },
-    { src: '/2_WhatsIncluded/1.jpg', alt: 'SLICE Weston Venue Interior' },
-    { src: '/2_WhatsIncluded/2.jpg', alt: 'SLICE Weston Event Space' },
-    { src: '/2_WhatsIncluded/3.png', alt: 'SLICE Weston Dance Floor' },
-    { src: '/2_WhatsIncluded/4.jpg', alt: 'SLICE Weston Bar Area' },
-    { src: '/2_WhatsIncluded/4.png', alt: 'SLICE Weston Seating Area' },
-    { src: '/2_WhatsIncluded/5.png', alt: 'SLICE Weston Event Setup' },
-    { src: '/2_WhatsIncluded/6.png', alt: 'SLICE Weston Premium Features' },
-    { src: '/2_WhatsIncluded/7.png', alt: 'SLICE Weston Entertainment Area' },
-    { src: '/2_WhatsIncluded/8.png', alt: 'SLICE Weston Celebration Space' },
-    { src: '/2_WhatsIncluded/9.png', alt: 'SLICE Weston Venue Features' },
-    { src: '/2_WhatsIncluded/10.png', alt: 'SLICE Weston Event Space' },
-    { src: '/2_WhatsIncluded/11.png', alt: 'SLICE Weston Premium Setup' },
-    { src: '/2_WhatsIncluded/12.png', alt: 'SLICE Weston Modern Design' },
-    { src: '/2_WhatsIncluded/13.png', alt: 'SLICE Weston Event Venue' },
-    { src: '/2_WhatsIncluded/14.png', alt: 'SLICE Weston Celebration Area' },
-    { src: '/2_WhatsIncluded/15.png', alt: 'SLICE Weston Venue Interior' },
-    { src: '/2_WhatsIncluded/16.png', alt: 'SLICE Weston Event Space' },
-    { src: '/2_WhatsIncluded/17.png', alt: 'SLICE Weston Premium Venue' },
-    { src: '/2_WhatsIncluded/18.png', alt: 'SLICE Weston Modern Venue' }
+    { src: withBase('/2_WhatsIncluded/0.png'), alt: 'SLICE Weston Venue Showcase' },
+    { src: withBase('/2_WhatsIncluded/1.jpg'), alt: 'SLICE Weston Venue Interior' },
+    { src: withBase('/2_WhatsIncluded/2.jpg'), alt: 'SLICE Weston Event Space' },
+    { src: withBase('/2_WhatsIncluded/3.png'), alt: 'SLICE Weston Dance Floor' },
+    { src: withBase('/2_WhatsIncluded/4.jpg'), alt: 'SLICE Weston Bar Area' },
+    { src: withBase('/2_WhatsIncluded/4.png'), alt: 'SLICE Weston Seating Area' },
+    { src: withBase('/2_WhatsIncluded/5.png'), alt: 'SLICE Weston Event Setup' },
+    { src: withBase('/2_WhatsIncluded/6.png'), alt: 'SLICE Weston Premium Features' },
+    { src: withBase('/2_WhatsIncluded/7.png'), alt: 'SLICE Weston Entertainment Area' },
+    { src: withBase('/2_WhatsIncluded/8.png'), alt: 'SLICE Weston Celebration Space' },
+    { src: withBase('/2_WhatsIncluded/9.png'), alt: 'SLICE Weston Venue Features' },
+    { src: withBase('/2_WhatsIncluded/10.png'), alt: 'SLICE Weston Event Space' },
+    { src: withBase('/2_WhatsIncluded/11.png'), alt: 'SLICE Weston Premium Setup' },
+    { src: withBase('/2_WhatsIncluded/12.png'), alt: 'SLICE Weston Modern Design' },
+    { src: withBase('/2_WhatsIncluded/13.png'), alt: 'SLICE Weston Event Venue' },
+    { src: withBase('/2_WhatsIncluded/14.png'), alt: 'SLICE Weston Celebration Area' },
+    { src: withBase('/2_WhatsIncluded/15.png'), alt: 'SLICE Weston Venue Interior' },
+    { src: withBase('/2_WhatsIncluded/16.png'), alt: 'SLICE Weston Event Space' },
+    { src: withBase('/2_WhatsIncluded/17.png'), alt: 'SLICE Weston Premium Venue' },
+    { src: withBase('/2_WhatsIncluded/18.png'), alt: 'SLICE Weston Modern Venue' }
   ];
 
   const handlePhotoClick = (index: number) => {
@@ -182,7 +184,7 @@ const WhatsIncluded: React.FC = () => {
                           onClick={() => handlePhotoClick(0)}
                         >
                           <img
-                            src="/2_WhatsIncluded/venueshowcase.png"
+                            src={withBase('/2_WhatsIncluded/venueshowcase.png')}
                             alt="SLICE Weston Venue Showcase - Click to view full gallery"
                             className="venue-showcase-image w-full h-96 object-cover transition-transform duration-300 group-hover:scale-105 rounded-lg"
                           />
@@ -270,7 +272,7 @@ const WhatsIncluded: React.FC = () => {
                   </h4>
                   <div className="floor-plan-image">
                     <img 
-                      src="/floorPlan.jpg" 
+                      src={withBase('/floorPlan.jpg')} 
                       alt={tString('pages.about.floorPlan.altText')}
                       className="floor-plan-image-fill clickable-floor-plan"
                       onClick={openFloorPlanModal}
@@ -598,7 +600,7 @@ const WhatsIncluded: React.FC = () => {
             
             <div className="floor-plan-image-container">
               <img 
-                src="/floorPlan.jpg" 
+                src={withBase('/floorPlan.jpg')} 
                 alt={tString('pages.about.floorPlan.modal.altText')}
                 className="floor-plan-modal-image-full"
               />

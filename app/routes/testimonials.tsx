@@ -1108,7 +1108,7 @@ const Testimonials: React.FC = () => {
                             style={{ cursor: 'pointer' }}
                           >
                             <img
-                              src={photo}
+                              src={`${(import.meta as any).env?.BASE_URL || '/'}${photo.replace(/^\//,'')}`}
                               alt={`${review.name}'s event photo ${index + 1}`}
                               className="review-photo-img"
                               onError={(e) => {
