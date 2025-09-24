@@ -42,7 +42,7 @@ const About: React.FC = () => {
                   playsInline
                   preload="metadata"
                 >
-                  <source src="/7_AboutUs/aboutus.mp4" type="video/mp4" />
+                  <source src={`${(import.meta as any).env?.BASE_URL || '/'}7_AboutUs/aboutus.mp4`} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
@@ -147,7 +147,7 @@ const About: React.FC = () => {
                     </span>
                   </div>
                   <img 
-                    src="/floorPlan.jpg" 
+                    src={`${(import.meta as any).env?.BASE_URL || '/'}floorPlan.jpg`} 
                     alt={tString('pages.about.floorPlan.altText')}
                     className="floor-plan-image-fill clickable-floor-plan"
                     onClick={openFloorPlanModal}
@@ -329,7 +329,7 @@ const About: React.FC = () => {
             
             <div className="floor-plan-image-container">
               <img 
-                src="/floorPlan.jpg" 
+                src={`${(import.meta as any).env?.BASE_URL || '/'}floorPlan.jpg`} 
                 alt={tString('pages.about.floorPlan.modal.altText')}
                 className="floor-plan-modal-image-full"
               />

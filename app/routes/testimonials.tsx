@@ -19,7 +19,9 @@ const Testimonials: React.FC = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
 
   const openPhotoViewer = (photos: string[], index: number) => {
-    setCurrentReviewPhotos(photos);
+    const BASE = (import.meta as any).env?.BASE_URL || '/';
+    const normalized = photos.map(p => `${BASE}${p.replace(/^\//,'')}`);
+    setCurrentReviewPhotos(normalized);
     setSelectedPhotoIndex(index);
     setShowLightbox(true);
     // Update thumbnail start index to show the selected photo in view
